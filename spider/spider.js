@@ -1,5 +1,5 @@
 "use strict";
-const CronJob = require('cron').CronJob;
+const CronJob = require('cron').CronJob; // 定时脚本
 const Promise = require('es6-promise').Promise;
 
 const CONFIG = require('../config');

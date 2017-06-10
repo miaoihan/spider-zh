@@ -2,21 +2,21 @@
 <div class="home">
   <div class="date-pick">
     <input type="date" min="2013-05-19" :value="now" @change="changeDate">
-    <p class="date-desc">搜索知乎日报的某一天</p>
+    <p class="date-desc">搜索知乎日报的某一天 </p>
   </div>
-  <p class="statis-link"><a href="/statistics">去看看知乎日报的数据统计</a></p>
+  <p class="statis-link"><a href="/statistics">去看看知乎日报的数据统计 </a></p>
   <Latest :data="latest"></Latest>
 
   <template v-for="item in histories">
     <History :day="item"></History>
   </template>
   
-  <i class="loading"><span>Previous Day</span></i>
+  <i class="loading"><span>Previous Day</span></i> 
 </div>
 </template>
 
 <script>
-import Vue from 'vue'
+import Vue from 'vue' 
 import Latest from '../components/Latest.vue'
 import History from '../components/History.vue'
 import DateCalc from '../../spider/util/date'

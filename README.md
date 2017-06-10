@@ -43,8 +43,8 @@ use zhihu
 
 ```shell
 db.createUser({
-  user: "username",
-  pwd: "password",
+  user: "root",
+  pwd: "123456",
   "roles" : [
   {
     "role" : "readWrite",

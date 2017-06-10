@@ -128,7 +128,8 @@ export default {
         vertical-align middle
     }
     .content {
-      font-size 17px
+      font-size 15px
+      line-height 180%
       color #616466
       img {
         width auto
